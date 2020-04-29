@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=class1
+comment1.params=input
+comment1.target=double\ cgRatio(java.lang.String)
+comment1.text=public\ StorageResource\ findAbc(String\ input){\r\n\ \ \ \ \ \ \ int\ index\ \=\ input.indexOf("abc");\r\n\ \ \ \ \ \ \ StorageResource\ s\=\ new\ StorageResource();\r\n\ \ \ \ \ \ \ while\ (true){\r\n\ \ \ \ \ \ \ \ \ \ \ if\ (index\ \=\=\ -1\ ||\ index\ >\=\ input.length()\ -\ 3){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\r\n\ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ String\ found\ \=\ input.substring(index+1,\ index+4);\r\n\ \ \ \ \ \ \ \ \ \ \ s.add(found);\r\n\ \ \ \ \ \ \ \ \ \ \ index\ \=\ input.indexOf("abc",index+3);\r\n\ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ return\ s;\r\n}
+comment2.params=input
+comment2.target=int\ countCTG(java.lang.String)
+comment3.params=sr
+comment3.target=void\ processGenes(edu.duke.StorageResource)
+comment4.params=
+comment4.target=void\ testProcessGenes()
+numComments=5

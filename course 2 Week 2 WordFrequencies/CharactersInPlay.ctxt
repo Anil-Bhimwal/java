@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CharactersInPlay
+comment1.params=
+comment1.target=CharactersInPlay()
+comment2.params=person
+comment2.target=void\ update(java.lang.String)
+comment3.params=
+comment3.target=void\ findAllCharacters()
+comment4.params=
+comment4.target=void\ tester()
+comment5.params=num1\ num2
+comment5.target=void\ charactersWithNumParts(int,\ int)
+comment5.text=Write\ a\ void\ method\ called\ charactersWithNumParts\ that\ has\ two\ int\ \r\n\ parameters\ named\ num1\ and\ num2,\ where\ you\ can\ assume\ num1\ \r\n\ should\ be\ less\ than\ or\ equal\ to\ num2.\r\n\ This\ method\ should\ print\ out\ the\ names\ of\ all\ those\ \r\n\ characters\ that\ have\ exactly\ number\ speaking\ parts,\ \r\n\ where\ number\ is\ greater\ than\ or\ \r\nequal\ to\ num1\ and\ less\ than\ or\ equal\ to\ num2.\r\nAdd\ code\ in\ tester\ to\ test\ this\ method\ out.
+numComments=6
